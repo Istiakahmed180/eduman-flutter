@@ -1,0 +1,66 @@
+name: eduman_flutter
+description: A new Flutter project.
+
+publish_to: "none"
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+
+dependencies:
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  top_snackbar_flutter: ^3.1.0
+  youtube_player_flutter: ^8.1.2
+  expansion_tile_card: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+  intl_phone_field: ^3.2.0
+  flutter_otp_text_field: ^1.1.1
+  video_player: ^2.8.1
+  chewie: ^1.7.4
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+    image_path: "assets/icon/icon.png"
+    android: true
+    ios: true
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/src/assets/welcome/
+    - lib/src/assets/signin_&_signup/
+    - lib/src/assets/icons/image_icon/
+    - lib/src/assets/icons/svg_icon/
+    - lib/src/assets/avater/
+    - lib/src/assets/carousel/
+    - lib/src/assets/about/
+    - lib/src/assets/popular_courses/
+    - lib/src/assets/mentor/
+    - lib/src/assets/more_courses/
+    - lib/src/assets/all_course/
+    - lib/src/assets/blog/
+    - lib/src/assets/event/
+    - lib/src/assets/payment/
+    - lib/src/model/mentor_model.json
+    - lib/src/assets/certificate.png
+    - lib/src/assets/chat/
+    - assets/icon/
+
